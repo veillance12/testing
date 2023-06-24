@@ -1,0 +1,50 @@
+body {
+    font-family: "roboto";
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  input[type="number"],
+  select {
+    margin-bottom: 10px;
+    margin-top: 12px;
+    font-weight: 300;
+    width: 120px;
+    
+  }
+  
+  button[type="submit"] {
+    padding: 6px 16px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+  
+  .result-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
